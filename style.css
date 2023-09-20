@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: rgba(17,123,209,1);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+.roupas{
+width: auto;
+align-items: center;
+}
+
+.roupa-1{
+   width: 20%;
+}
+body{
+    background: rgb(17,123,209);
+    background: linear-gradient(180deg, rgba(17,123,209,1) 0%, rgba(219,194,255,1) 77%);
+}
